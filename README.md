@@ -29,8 +29,31 @@ Actualmente me encuentro cursando la carrera de Ing. en Informatica en UADE.
 
 Soy estudiante de Licenciatura en Gestión de las Tecnologias de la Información con interés en el desarrollo Full Stack y en la creación de soluciones prácticas.
 
-💡 Me gusta combinar lógica, creatividad y trabajo en equipo para construir proyectos que sean útiles y bien diseñados.
+Me gusta combinar lógica, creatividad y trabajo en equipo para construir proyectos que sean útiles y bien diseñados.
 
 Busco seguir creciendo en nuevas tecnologías, mejorar mis habilidades técnicas y enfrentar desafíos que me ayuden a evolucionar como desarrollador.
 
 Siempre aprendiendo y explorando herramientas, lenguajes y metodologías para mantenerme actualizado.
+
+## Santiago Reverter
+
+<img src="https://media.licdn.com/dms/image/v2/D4D35AQH8GhDNoriGgg/profile-framedphoto-shrink_400_400/B4DZnyng__IEAc-/0/1760712069374?e=1774393200&v=beta&t=6_6F-2MI8jZwPXqPQBDlN_tfLghj8YHZKk3d6uA5IQI" alt="Santiago Reverter" width="150" style="border-radius: 50%;" />
+
+Hola, soy Santiago Reverter.
+
+## Sobre mí
+
+Soy Project Lead en una agencia digital, con experiencia liderando proyectos de desarrollo web y diseño de punta a punta.
+
+Actualmente estoy cursando una Licenciatura en Gestión de Tecnología de la Información, mientras sigo desarrollando habilidades en Agile, gestión de proyectos y producto digital.
+
+## Zoe Vicente
+
+<img src="https://media.licdn.com/dms/image/v2/D4D03AQHTFuLWVDE5DQ/profile-displayphoto-shrink_400_400/B4DZz.A96wG4Ag-/0/1773788192905?e=1775088000&v=beta&t=lH2MZbewlFsodwku-0RVy-MMVhbQQ5WBfTr9-1wdP20" alt="Zoe Vicente" width="150" style="border-radius: 50%;" />
+
+Soy estudiante de la Licenciatura en Gestión de la Tecnología de la Informacion.
+
+Actualmente estoy formándome en desarrollo web.
+
+Me gusta aprender cosas nuevas, mejorar mis habilidades y trabajar en proyectos donde pueda aplicar lo que voy aprendiendo.
+
