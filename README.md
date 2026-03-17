@@ -1,7 +1,9 @@
-# martes-noche-PII-javateam
+# Martes-Noche-PII-JAVATEAM
 
 
 ## Iair Kaplun
+
+<img src="https://media.licdn.com/dms/image/v2/C4E03AQHUUOcl97gkNw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517061776214?e=1775088000&v=beta&t=ShLFARVj_i2dk3HQcT5_IBhgpxUl2CR5VsvBSn9fvvg" alt="Iair Kaplun" width="150" style="border-radius: 50%;" />
 
 Soy Desarrollador Full Stack con un gran toque creativo.
 
