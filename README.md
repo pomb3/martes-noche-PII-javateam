@@ -57,3 +57,10 @@ Actualmente estoy formándome en desarrollo web.
 
 Me gusta aprender cosas nuevas, mejorar mis habilidades y trabajar en proyectos donde pueda aplicar lo que voy aprendiendo.
 
+
+
+
+# Actividad Pilas - Colas - 17/03/2026
+
+
+Link: https://docs.google.com/document/d/1d5AdK4gtlw448FeYsIispY1EHDyYEb9RIdlmwSqQWRQ/edit?usp=sharing
