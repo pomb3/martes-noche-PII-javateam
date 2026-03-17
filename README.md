@@ -23,3 +23,14 @@ Soy Desarrollador Full Stack con un gran toque creativo.
 
 Soy Mili! Siempre me interesó la tecnología y cómo puede ayudarnos a entender mejor lo que pasa a nuestro alrededor, trabajo en el mundo de la analítica desempeñandome como Data Engineer, donde donde puedo combinar esa curiosidad con algo (a veces) divertido: resolver problemas.
 Actualmente me encuentro cursando la carrera de Ing. en Informatica en UADE.
+## Tomás Bond
+
+<img src="https://media.licdn.com/dms/image/v2/D4E03AQGDMrYiS8uyJQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1689087003235?e=1775088000&v=beta&t=FnPz00BgYU4rC-HhyQQ_8C2-0wITtGCRB1rQeIuFtKE" alt="Tomás Bond" width="150" style="border-radius: 50%;" />
+
+Soy estudiante de Licenciatura en Gestión de las Tecnologias de la Información con interés en el desarrollo Full Stack y en la creación de soluciones prácticas.
+
+💡 Me gusta combinar lógica, creatividad y trabajo en equipo para construir proyectos que sean útiles y bien diseñados.
+
+Busco seguir creciendo en nuevas tecnologías, mejorar mis habilidades técnicas y enfrentar desafíos que me ayuden a evolucionar como desarrollador.
+
+Siempre aprendiendo y explorando herramientas, lenguajes y metodologías para mantenerme actualizado.
