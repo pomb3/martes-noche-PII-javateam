@@ -59,7 +59,7 @@ Me gusta aprender cosas nuevas, mejorar mis habilidades y trabajar en proyectos 
 
 ## Juan Pellegrino 
 
-<img src = https://media.licdn.com/dms/image/v2/D4E03AQHjlYcKlUW23A/profile-displayphoto-shrink_800_800/B4EZUltaCaGYAc-/0/1740094415542?e=1775088000&v=beta&t=RZ3zSCT7_pzN8YuRQuuffpj81XyY3lZB2tz3GGS2TcA alt = "Juan Pellegrino" width ="150" style = "border-radius: 50%">
+<img src="https://media.licdn.com/dms/image/v2/D4E03AQHjlYcKlUW23A/profile-displayphoto-shrink_800_800/B4EZUltaCaGYAc-/0/1740094415542?e=1775088000&v=beta&t=RZ3zSCT7_pzN8YuRQuuffpj81XyY3lZB2tz3GGS2TcA" alt="Juan Pellegrino" width="150" style="border-radius: 50%;" />
 
 Soy un estudiante de Ingeniería en Informática en la UADE, con una gran pasión por la tecnología y el desarrollo de software. 
 Me gusta aprender cosas nuevas y desafiarme a mí mismo. Estoy emocionado de formar parte de este equipo y de aprender de mis compañeros.
