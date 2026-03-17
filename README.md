@@ -17,7 +17,9 @@ Soy Desarrollador Full Stack con un gran toque creativo.
 
 👯 Abierto a colaboraciones y nuevos desafíos. Me encanta pensar fuera de la caja y aportar un giro creativo.
 
-## Tomás Bond ![Foto de Tomás Bond](https://media.licdn.com/dms/image/v2/D4E03AQGDMrYiS8uyJQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1689087003235?e=1775088000&v=beta&t=FnPz00BgYU4rC-HhyQQ_8C2-0wITtGCRB1rQeIuFtKE)
+## Tomás Bond
+
+<img src="https://media.licdn.com/dms/image/v2/D4E03AQGDMrYiS8uyJQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1689087003235?e=1775088000&v=beta&t=FnPz00BgYU4rC-HhyQQ_8C2-0wITtGCRB1rQeIuFtKE" alt="Tomás Bond" width="150" style="border-radius: 50%;" />
 
 Soy estudiante de Licenciatura en Gestión de las Tecnologias de la Información con interés en el desarrollo Full Stack y en la creación de soluciones prácticas.
 
