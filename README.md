@@ -63,3 +63,8 @@ Me gusta aprender cosas nuevas, mejorar mis habilidades y trabajar en proyectos 
 
 Soy un estudiante de Ingeniería en Informática en la UADE, con una gran pasión por la tecnología y el desarrollo de software. 
 Me gusta aprender cosas nuevas y desafiarme a mí mismo. Estoy emocionado de formar parte de este equipo y de aprender de mis compañeros.
+
+# Actividad Pilas - Colas - 17/03/2026
+
+
+Link: https://docs.google.com/document/d/1d5AdK4gtlw448FeYsIispY1EHDyYEb9RIdlmwSqQWRQ/edit?usp=sharing
