@@ -16,3 +16,10 @@ Soy Desarrollador Full Stack con un gran toque creativo.
 🌱 Siempre aprendiendo y manteniéndome al día con las nuevas tendencias tecnológicas.
 
 👯 Abierto a colaboraciones y nuevos desafíos. Me encanta pensar fuera de la caja y aportar un giro creativo.
+
+## Milagros Abelino
+
+<img src= "https://media.licdn.com/dms/image/v2/D4D03AQGPTIlya5td-A/profile-displayphoto-scale_200_200/B4DZzyYneYIoAc-/0/1773593067789?e=1775088000&v=beta&t=S_iIogXqBh3YYT5KFu_t2I3vdkpk_0eE3PcVm2H_5tA" alt= "Mili Abelino" width="150" style="border-radius: 50%;" />
+
+Soy Mili! Siempre me interesó la tecnología y cómo puede ayudarnos a entender mejor lo que pasa a nuestro alrededor, trabajo en el mundo de la analítica desempeñandome como Data Engineer, donde donde puedo combinar esa curiosidad con algo (a veces) divertido: resolver problemas.
+Actualmente me encuentro cursando la carrera de Ing. en Informatica en UADE.
