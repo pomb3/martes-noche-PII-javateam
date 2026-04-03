@@ -7,18 +7,28 @@ public class Main {
         PilaTDA pila = new Estrategia_1();
         pila.InicializarPila();
 
-        // Simulación de editor de código (Undo)
+        // Estados del código
+        pila.Apilar(1);
+        pila.Apilar(2);
+        pila.Apilar(3);
 
-        pila.Apilar(1); // estado 1: "int a = 5;"
-        pila.Apilar(2); // estado 2: "int a = 5; int b = 10;"
-        pila.Apilar(3); // estado 3: "int a = 5; int b = 10; System.out.println(a);"
+        System.out.println("Código actual:");
 
-        System.out.println("Tope: " + pila.Tope());
+        if (pila.Tope() == 3) {
+            System.out.println("int a = 5;");
+            System.out.println("int b = 10;");
+            System.out.println("System.out.println(a);");
+        }
 
-        pila.Desapilar(); // Undo
+        // Undo
+        pila.Desapilar();
 
-        System.out.println("Nuevo tope: " + pila.Tope());
+        System.out.println("\nDespués de Undo:");
 
-        System.out.println("¿Está vacía?: " + pila.PilaVacia());
+        if (pila.Tope() == 2) {
+            System.out.println("int a = 5;");
+            System.out.println("int b = 10;");
+        }
+
     }
 }
