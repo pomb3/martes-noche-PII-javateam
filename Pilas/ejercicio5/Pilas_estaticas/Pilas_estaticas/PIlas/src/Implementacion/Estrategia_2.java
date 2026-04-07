@@ -1,26 +1,26 @@
 package Implementacion;
 
-import Interfaces.PilaTDA;
+import Interfaces.PilaEj6TDA;
 
-public class Estrategia_2 implements PilaTDA {
+public class Estrategia_2 implements PilaEj6TDA {
 
     private static final int MAX = 100;
-    private int[] datos;
+    private String[] datos;
     private int cantidad; // variable auxiliar
 
     @Override
     public void InicializarPila() {
-        datos = new int[MAX];
+        datos = new String[MAX];
         cantidad = 0;
     }
 
     @Override
-    public void Apilar(int x) {
+    public void Apilar(String path) {
         if (cantidad < MAX) {
             for (int i = cantidad; i > 0; i--) {
                 datos[i] = datos[i - 1]; // mueve a la derecha
             }
-            datos[0] = x; // el tope siempre queda en 0
+            datos[0] = path; // el tope siempre queda en 0
             cantidad++;
         }
     }
@@ -36,7 +36,7 @@ public class Estrategia_2 implements PilaTDA {
     }
 
     @Override
-    public int Tope() {
+    public String Tope() {
         return datos[0];
     }
 

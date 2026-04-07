@@ -6,10 +6,8 @@ import Interfaces.PilaTDA;
 public class Main {
     public static void main(String[] args) {
 
-        PilaTDA p2 = new Estrategia_2();
         PilaTDA p3 = new Estrategia_3();
 
-        probarPila("Estrategia 2", p2);
         probarPila("Estrategia 3", p3);
     }
 
