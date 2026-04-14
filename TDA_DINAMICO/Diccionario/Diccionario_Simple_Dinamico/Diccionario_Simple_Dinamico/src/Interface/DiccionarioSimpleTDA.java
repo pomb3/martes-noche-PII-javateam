@@ -1,0 +1,8 @@
+package Interface;
+
+public interface DiccionarioSimpleTDA {
+    void InicializarDiccionario();
+    void Agregar(String clave, String valor);
+    void Eliminar(String clave);
+    String[] Claves();
+}
