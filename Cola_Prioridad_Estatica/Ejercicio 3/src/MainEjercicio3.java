@@ -1,9 +1,9 @@
 import Implementacion.ColaPrioridadEstatica;
-import Interface.ColaPrioridadTDA;
+import Interface.ColaPrioridadTDAE6;
 
 public class MainEjercicio3 {
     public static void main(String[] args) {
-        ColaPrioridadTDA cola = new ColaPrioridadEstatica();
+        ColaPrioridadTDAE6 cola = new ColaPrioridadEstatica();
 
         cola.InicializarColaPrioridad();
 

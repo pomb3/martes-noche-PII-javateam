@@ -1,8 +1,7 @@
 package Implementacion;
+import Interface.ColaPrioridadTDAE6;
 
-import Interface.ColaPrioridadTDA;
-
-public class ColaPrioridadEstatica implements ColaPrioridadTDA {
+public class ColaPrioridadEstatica implements ColaPrioridadTDAE6 {
 
     private static final int MAX = 100;
     private int[] datos;

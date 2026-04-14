@@ -1,7 +1,6 @@
 package Implementacion;
 
 import Interface.ColaPrioridadEjercicio1;
-import Interface.ColaPrioridadTDA;
 
 public class ColaPrioridadEstatica implements ColaPrioridadEjercicio1 {
 
