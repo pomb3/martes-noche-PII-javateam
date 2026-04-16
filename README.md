@@ -49,7 +49,7 @@ Actualmente estoy cursando una Licenciatura en Gestión de Tecnología de la Inf
 
 ## Zoe Vicente
 
-<img src="https://media.licdn.com/dms/image/v2/D4D03AQHTFuLWVDE5DQ/profile-displayphoto-shrink_400_400/B4DZz.A96wG4Ag-/0/1773788192905?e=1775088000&v=beta&t=lH2MZbewlFsodwku-0RVy-MMVhbQQ5WBfTr9-1wdP20" alt="Zoe Vicente" width="150" style="border-radius: 50%;" />
+<img src="https://github.com/user-attachments/assets/4258a0d4-3298-462e-8c82-720f4fc1d749" alt="Zoe Vicente" width="150" style="border-radius: 50%;"  />
 
 Soy estudiante de la Licenciatura en Gestión de la Tecnología de la Informacion.
 
