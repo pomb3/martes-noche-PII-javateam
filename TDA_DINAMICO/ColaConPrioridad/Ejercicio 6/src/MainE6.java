@@ -1,10 +1,10 @@
 import Implementacion.ColaPrioridadDinamica;
-import Interface.ColaPrioridadTDAE6;
+import Interface.ColaPrioridadTDA;
 
-public class MainE6CPD {
+public class MainE6 {
     public static void main(String[] args) {
 
-        ColaPrioridadTDAE6 cola = new ColaPrioridadDinamica();
+        ColaPrioridadTDA cola = new ColaPrioridadDinamica();
 
         cola.InicializarColaPrioridad();
 

@@ -1,12 +1,12 @@
 package Implementacion;
 
-import Interface.ColaPrioridadTDAE6;
+import Interface.ColaPrioridadTDA;
 
-public class ColaPrioridadDinamica implements ColaPrioridadTDAE6 {
+public class ColaPrioridadDinamica implements ColaPrioridadTDA {
 
     // La lista está ordenada de mayor a menor prioridad.
     // frente apunta al nodo con mayor prioridad (el primero en salir).
-    private NodeE2 frente;
+    private Node frente;
 
     @Override
     public void InicializarColaPrioridad() {
@@ -15,7 +15,7 @@ public class ColaPrioridadDinamica implements ColaPrioridadTDAE6 {
 
     @Override
     public void AcolarPrioridad(int numero, int prioridad) {
-        NodeE2 nuevo = new NodeE2(numero, prioridad, null);
+        Node nuevo = new Node(numero, prioridad, null);
 
         if (frente == null || prioridad > frente.getPrioridad()) {
             // Insertar al frente si la lista está vacía o tiene mayor prioridad.
@@ -23,7 +23,7 @@ public class ColaPrioridadDinamica implements ColaPrioridadTDAE6 {
             frente = nuevo;
         } else {
             // Avanzar hasta encontrar el lugar correcto (orden descendente de prioridad).
-            NodeE2 curr = frente;
+            Node curr = frente;
             while (curr.getNext() != null && curr.getNext().getPrioridad() >= prioridad) {
                 curr = curr.getNext();
             }

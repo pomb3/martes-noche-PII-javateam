@@ -1,12 +1,12 @@
 package Implementacion;
 
-public class NodeE6 {
+public class Node {
 
     private int dato;
     private int prioridad;
-    private NodeE2 next;
+    private Node next;
 
-    public NodeE6(int dato, int prioridad, NodeE2 next) {
+    public Node(int dato, int prioridad, Node next) {
         this.dato = dato;
         this.prioridad = prioridad;
         this.next = next;
@@ -28,11 +28,11 @@ public class NodeE6 {
         this.prioridad = prioridad;
     }
 
-    public NodeE2 getNext() {
+    public Node getNext() {
         return next;
     }
 
-    public void setNext(NodeE2 next) {
+    public void setNext(Node next) {
         this.next = next;
     }
 }
