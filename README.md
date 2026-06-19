@@ -68,3 +68,7 @@ Me gusta aprender cosas nuevas y desafiarme a mí mismo. Estoy emocionado de for
 
 
 Link: https://docs.google.com/document/d/1d5AdK4gtlw448FeYsIispY1EHDyYEb9RIdlmwSqQWRQ/edit?usp=sharing
+
+# Actividad Árboles 24/06/2026
+
+Link: https://docs.google.com/document/d/1-JxGTVlHLy8bkLEemXM-k2ubM-Eh6WKtcwLAgHzMFKs/edit?usp=sharing
