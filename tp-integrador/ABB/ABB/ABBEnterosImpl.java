@@ -5,7 +5,7 @@ public class ABBEnterosImpl implements ABBEnteros {
 
     @Override
     public void agregar(int valor) {
-        raiz = agregarRecursivo(raiz, valor);
+        agregarIterativo(valor);
     }
 
      public void agregarIterativo(int valor){
@@ -154,27 +154,42 @@ public class ABBEnterosImpl implements ABBEnteros {
     @Override
     public void mostrarInOrden() {
         mostrarInOrdenRecursivo(raiz);
+        System.out.println();
     }
 
     private void mostrarInOrdenRecursivo(Nodo actual) {
-        throw new UnsupportedOperationException("Método no implementado");
+        if (actual == null) return;
+
+        mostrarInOrdenRecursivo(actual.izquierdo);
+        System.out.print(actual.valor + " ");
+        mostrarInOrdenRecursivo(actual.derecho);
     }
 
     @Override
     public void mostrarPreOrden() {
         mostrarPreOrdenRecursivo(raiz);
+        System.out.println();
     }
 
     private void mostrarPreOrdenRecursivo(Nodo actual) {
-        throw new UnsupportedOperationException("Método no implementado");
+        if (actual == null) return;
+
+        System.out.print(actual.valor + " ");
+        mostrarPreOrdenRecursivo(actual.izquierdo);
+        mostrarPreOrdenRecursivo(actual.derecho);
     }
 
     @Override
     public void mostrarPostOrden() {
         mostrarPostOrdenRecursivo(raiz);
+        System.out.println();
     }
 
     private void mostrarPostOrdenRecursivo(Nodo actual) {
-        throw new UnsupportedOperationException("Método no implementado");
+        if (actual == null) return;
+
+        mostrarPostOrdenRecursivo(actual.izquierdo);
+        mostrarPostOrdenRecursivo(actual.derecho);
+        System.out.print(actual.valor + " ");
     }
 }
