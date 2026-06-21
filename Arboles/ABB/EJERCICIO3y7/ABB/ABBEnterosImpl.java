@@ -9,7 +9,17 @@ public class ABBEnterosImpl implements ABBEnteros {
     }
 
     private Nodo agregarRecursivo(Nodo actual, int valor) {
-        throw new UnsupportedOperationException("Método no implementado");
+        if (actual == null) {
+            return new Nodo(valor);
+        }
+
+        if (valor < actual.valor) {
+            actual.izquierdo = agregarRecursivo(actual.izquierdo, valor);
+        } else if (valor > actual.valor) {
+            actual.derecho = agregarRecursivo(actual.derecho, valor);
+        }
+
+        return actual;
     }
 
     @Override
@@ -116,5 +126,20 @@ public class ABBEnterosImpl implements ABBEnteros {
 
     private void mostrarPostOrdenRecursivo(Nodo actual) {
         throw new UnsupportedOperationException("Método no implementado");
+    }
+
+    public boolean enRango(int desde, int hasta) {
+        return enRangoRecursivo(raiz, desde, hasta);
+    }
+
+    private boolean enRangoRecursivo(Nodo actual, int desde, int hasta) {
+        if (actual == null) {
+            return true;
+        }
+        if (actual.valor < desde || actual.valor > hasta) {
+            return false;
+        }
+        return enRangoRecursivo(actual.izquierdo, desde, hasta)
+            && enRangoRecursivo(actual.derecho, desde, hasta);
     }
 }
