@@ -121,8 +121,13 @@ public class ABBEnterosImpl implements ABBEnteros {
         return alturaRecursivo(raiz);
     }
 
-    private int alturaRecursivo(Nodo actual) {
-        throw new UnsupportedOperationException("Método no implementado");
+    private int alturaRecursivo(ABB.Nodo actual) {
+        if (actual == null) {
+            return 0;
+        }
+        int alturaIzquierda = alturaRecursivo(actual.izquierdo);
+        int alturaDerecha = alturaRecursivo(actual.derecho);
+        return 1 + Math.max(alturaIzquierda, alturaDerecha);
     }
 
     @Override
@@ -135,7 +140,10 @@ public class ABBEnterosImpl implements ABBEnteros {
     }
 
     private Nodo minimoRecursivo(Nodo actual) {
-        throw new UnsupportedOperationException("Método no implementado");
+        if (actual.izquierdo == null) {
+            return actual;
+        }
+        return minimoRecursivo(actual.izquierdo);
     }
 
     @Override
@@ -147,8 +155,11 @@ public class ABBEnterosImpl implements ABBEnteros {
         return maximoRecursivo(raiz).valor;
     }
 
-    private Nodo maximoRecursivo(Nodo actual) {
-        throw new UnsupportedOperationException("Método no implementado");
+    private ABB.Nodo maximoRecursivo(ABB.Nodo actual) {
+        if (actual.derecho == null) {
+            return actual;
+        }
+        return maximoRecursivo(actual.derecho);
     }
 
     @Override
@@ -157,7 +168,7 @@ public class ABBEnterosImpl implements ABBEnteros {
         System.out.println();
     }
 
-    private void mostrarInOrdenRecursivo(Nodo actual) {
+    private void mostrarInOrdenRecursivo(ABB.Nodo actual) {
         if (actual == null) return;
 
         mostrarInOrdenRecursivo(actual.izquierdo);
@@ -171,7 +182,7 @@ public class ABBEnterosImpl implements ABBEnteros {
         System.out.println();
     }
 
-    private void mostrarPreOrdenRecursivo(Nodo actual) {
+    private void mostrarPreOrdenRecursivo(ABB.Nodo actual) {
         if (actual == null) return;
 
         System.out.print(actual.valor + " ");
@@ -185,26 +196,11 @@ public class ABBEnterosImpl implements ABBEnteros {
         System.out.println();
     }
 
-    private void mostrarPostOrdenRecursivo(Nodo actual) {
+    private void mostrarPostOrdenRecursivo(ABB.Nodo actual) {
         if (actual == null) return;
 
         mostrarPostOrdenRecursivo(actual.izquierdo);
         mostrarPostOrdenRecursivo(actual.derecho);
         System.out.print(actual.valor + " ");
-    }
-
-    public boolean enRango(int desde, int hasta) {
-        return enRangoRecursivo(raiz, desde, hasta);
-    }
-
-    private boolean enRangoRecursivo(Nodo actual, int desde, int hasta) {
-        if (actual == null) {
-            return true;
-        }
-        if (actual.valor < desde || actual.valor > hasta) {
-            return false;
-        }
-        return enRangoRecursivo(actual.izquierdo, desde, hasta)
-            && enRangoRecursivo(actual.derecho, desde, hasta);
     }
 }
