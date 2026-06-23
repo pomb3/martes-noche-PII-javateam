@@ -35,18 +35,6 @@ Busco seguir creciendo en nuevas tecnologías, mejorar mis habilidades técnicas
 
 Siempre aprendiendo y explorando herramientas, lenguajes y metodologías para mantenerme actualizado.
 
-## Santiago Reverter
-
-<img src="https://media.licdn.com/dms/image/v2/D4D35AQH8GhDNoriGgg/profile-framedphoto-shrink_400_400/B4DZnyng__IEAc-/0/1760712069374?e=1774393200&v=beta&t=6_6F-2MI8jZwPXqPQBDlN_tfLghj8YHZKk3d6uA5IQI" alt="Santiago Reverter" width="150" style="border-radius: 50%;" />
-
-Hola, soy Santiago Reverter.
-
-## Sobre mí
-
-Soy Project Lead en una agencia digital, con experiencia liderando proyectos de desarrollo web y diseño de punta a punta.
-
-Actualmente estoy cursando una Licenciatura en Gestión de Tecnología de la Información, mientras sigo desarrollando habilidades en Agile, gestión de proyectos y producto digital.
-
 ## Zoe Vicente
 
 <img src="https://github.com/user-attachments/assets/4258a0d4-3298-462e-8c82-720f4fc1d749" alt="Zoe Vicente" width="150" style="border-radius: 50%;"  />
