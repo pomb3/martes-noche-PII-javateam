@@ -104,8 +104,6 @@ public class ABBEnterosImpl implements ABBEnteros {
             return actual;
     }
 
-
-
     @Override
     public int cantidad() {
         return cantidadRecursivo(raiz);
@@ -202,5 +200,24 @@ public class ABBEnterosImpl implements ABBEnteros {
         mostrarPostOrdenRecursivo(actual.izquierdo);
         mostrarPostOrdenRecursivo(actual.derecho);
         System.out.print(actual.valor + " ");
+    }
+
+    public boolean enRango(int desde, int hasta) {
+        return enRangoRecursivo(raiz, desde, hasta);
+    }
+
+    private boolean enRangoRecursivo(Nodo actual, int desde, int hasta) {
+        if (actual == null) {
+            return true;
+        }
+        if (actual.valor < desde || actual.valor > hasta) {
+            return false;
+        }
+        return enRangoRecursivo(actual.izquierdo, desde, hasta)
+                && enRangoRecursivo(actual.derecho, desde, hasta);
+    }
+
+    public Nodo getRaiz() {
+        return raiz;
     }
 }
